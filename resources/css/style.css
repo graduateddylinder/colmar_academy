@@ -1,13 +1,18 @@
 /* Global classes */
 .lrg_img_container {
+  display: block;
   width: 60%;
   height: auto;
-  margin: 32px 24px;
+  padding: 32px 24px;
 }
 
 .lrg_img_container img {
   width: 100%;
   height: auto;
+}
+
+.container {
+  width: 100%;
 }
 
 /* Header */
@@ -50,12 +55,12 @@ header nav span a {
   flex-direction: column;
   justify-content: center;
   padding: 100px 48px 100px 24px;
-  width: 250px;
+  width: 350px;
   line-height: 1.25;
 }
 
 #main_banner.container .banner_text h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -72,4 +77,69 @@ header nav span a {
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+}
+
+/* Information Section */
+#information.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#information.container .info_main {
+  width: 60%;
+  border: 1px solid red;
+  margin: 0 24px;
+}
+
+#information.container .info_main .lrg_img_container {
+  width: 100%;
+  padding: 32px 0;
+}
+
+#information.container .info_main h2 {
+  font-size: 2rem;
+}
+
+#information.container .info_main p {
+  margin: 24px 0px 40px 0px;
+}
+
+#information.container .info_main span {
+
+}
+
+/* redline says 40% here, but doesn't account for margins/padding? how can all of it add up to 100%? */
+#information.container .info_list {
+  width: 35%;
+  border: 1px solid black;
+  margin-top: 16px;
+}
+
+#information.container .info_list .info_item {
+  display: flex;
+  align-items: center;
+}
+
+#information.container .info_list .info_item .info_item_img {
+  width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+#information.container .info_list .info_item .info_item_img img {
+  width: 100%;
+  height: auto;
+}
+
+#information.container .info_list .info_item h3 {
+  font-size: 1.5rem;
+}
+
+#information.container .info_list .info_item p {
+  margin: 8px 0px;
+}
+
+#information.container .info_list .info_item span a {
+  color: blue;
+  text-decoration: none;
 }
