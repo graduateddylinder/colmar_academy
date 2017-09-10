@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  border: 1px solid black;
+}
+
+header #left_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header #left_header img {
+  margin-left: 24px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
+header nav span a {
+  text-decoration: none;
+  margin-left: 16px;
+}
