@@ -142,4 +142,32 @@ header nav span a {
 #information.container .info_list .info_item span a {
   color: blue;
   text-decoration: none;
+  margin-bottom: 32px;
+}
+
+/* Courses Section */
+
+#course_section.container {
+  display: flex;
+  background-color: grey;
+  flex-direction: column;
+}
+
+#course_section.container .courses_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: red;
+}
+
+#course_section.container .courses_container .course {
+  background-color: white;
+}
+
+#course_section.container .courses_container .course .course_img {
+  height: auto;
+}
+
+#course_section.container .courses_container .course .course_img img {
+  height: 100%;
 }
