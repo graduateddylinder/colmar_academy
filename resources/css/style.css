@@ -207,6 +207,12 @@ header nav span a {
 
 }
 
+#thesis_section.container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 32px 0;
+}
+
 #thesis_section.container .thesis_container {
   display: flex;
   justify-content: space-between;
@@ -214,12 +220,47 @@ header nav span a {
 
 #thesis_section.container .thesis_container .thesis_main {
   width: 60%;
+  padding: 24px;
+  border: 1px solid black;
 }
 
 #thesis_section.container .thesis_container .lrg_vid_container {
   width: 100%;
 }
 
+#thesis_section.container .thesis_container .thesis_main h3 {
+  width: 60%;
+  margin: 24px 0 8px 0;;
+  font-size: 1.5rem;
+}
+
+#thesis_section.container .thesis_container .thesis_main p {
+  line-height: 1.25;
+}
+
 #thesis_section.container .thesis_container .thesis_list {
-  width: 40%;
+  width: 35%;
+  margin-top: 24px;
+  border: 1px solid blue;
+}
+
+#thesis_section.container .thesis_container .thesis_list .thesis_item {
+  display: flex;
+  align-items: center;
+}
+
+#thesis_section.container .thesis_container .thesis_list .thesis_item .thesis_item_img {
+  width: 35%;
+  height: auto;
+  margin: 16px
+}
+
+#thesis_section.container .thesis_container .thesis_list .thesis_item .thesis_item_img img {
+  width: 100%;
+  height: 100%;
+}
+
+#thesis_section.container .thesis_container .thesis_list .thesis_item .item_text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
 }
