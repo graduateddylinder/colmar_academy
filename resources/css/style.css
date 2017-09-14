@@ -29,6 +29,7 @@
 /* http://paletton.com */
 
 /* Global classes */
+
 .lrg_img_container {
   display: block;
   width: 60%;
@@ -46,6 +47,7 @@
 }
 
 /* Header */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -94,6 +96,7 @@ header nav span a:hover {
 }
 
 /* Main Banner */
+
 #main_banner.container {
   display: flex;
   flex-direction: row;
@@ -141,6 +144,7 @@ header nav span a:hover {
 }
 
 /* Information Section */
+
 #information.container {
   display: flex;
   justify-content: space-between;
@@ -173,7 +177,6 @@ header nav span a:hover {
   font-family: Droid Sans;
 }
 
-/* redline says 40% here, but doesn't account for margins/padding? how can all of it add up to 100%? */
 #information.container .info_list {
   width: 35%;
   margin-top: 16px;
@@ -367,6 +370,7 @@ header nav span a:hover {
 }
 
 /* Footer */
+
 footer {
   display: flex;
   justify-content: space-between;
